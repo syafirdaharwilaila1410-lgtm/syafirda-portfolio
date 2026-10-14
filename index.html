@@ -1,0 +1,1102 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#142b3b">
+  <meta name="description" content="Portfolio Syafirda Harwi Laila, Statistics Graduate specializing in data analysis, data processing, and visualization.">
+  <title>Syafirda Harwi Laila | Data Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a class="brand" href="#home" aria-label="Syafirda Portfolio">
+      <span class="brand-mark">S.</span>
+      <span>syafirda Harwi Laila<span class="brand-dot">.</span></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#about" data-id="Tentang" data-en="About">Tentang</a>
+      <a href="#experience" data-id="Pengalaman" data-en="Experience">Pengalaman</a>
+      <a href="#projects" data-id="Proyek" data-en="Projects">Proyek</a>
+      <a href="#skills" data-id="Keahlian" data-en="Skills">Keahlian</a>
+      <a href="#certifications" data-id="Pelatihan" data-en="Training">Pelatihan</a>
+      <a href="#contact" data-id="Kontak" data-en="Contact">Kontak</a>
+      <button class="language-toggle" id="languageToggle" type="button"
+        aria-label="Switch website language">EN ↗</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="availability">
+          <span class="status-dot"></span>
+          <span data-id="PORTFOLIO PRIBADI" data-en="PERSONAL PORTFOLIO">PORTFOLIO PRIBADI</span>
+        </div>
+
+        <p class="eyebrow" data-id="Halo, saya" data-en="Hello, I'm">Halo, saya</p>
+        <h1>Syafirda<br><span>Harwi Laila.</span></h1>
+
+        <p class="hero-role"
+          data-id="Lulusan Statistika · Data &amp; Analytics"
+          data-en="Statistics Graduate · Data &amp; Analytics">
+          Lulusan Statistika · Data &amp; Analytics
+        </p>
+
+        <p class="hero-description"
+          data-id="Saya tertarik mengubah data menjadi informasi yang bermakna melalui pengolahan data, analisis statistik, dan visualisasi. Saya senang belajar, memecahkan masalah, dan bekerja dengan detail."
+          data-en="I enjoy turning data into meaningful insights through data processing, statistical analysis, and visualization. I love learning, solving problems, and working with attention to detail.">
+          Saya tertarik mengubah data menjadi informasi yang bermakna melalui pengolahan data, analisis statistik, dan visualisasi. Saya senang belajar, memecahkan masalah, dan bekerja dengan detail.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">
+            <span data-id="Jelajahi Proyek" data-en="Explore Projects">Jelajahi Proyek</span>
+            <span aria-hidden="true">↗</span>
+          </a>
+          <div class="cv-dropdown">
+            <button
+            class="button button-outline"
+            id="cvDropdownButton"
+            type="button"
+            aria-expanded="false"
+            aria-controls="cvDropdownMenu"
+            >
+                <span data-id="Unduh CV" data-en="Download CV">Unduh CV</span>
+                <span aria-hidden="true">↓</span>
+            </button>
+            <div class="cv-dropdown-menu" id="cvDropdownMenu" hidden>
+            <a href="assets/cv-indonesia.pdf" download>
+                CV Bahasa Indonesia
+            </a>
+            <a href="assets/cv-english.pdf" download>
+                English CV
+            </a>
+          </div>
+         </div>
+        </div>
+         
+        <div class="hero-socials">
+          <a href="https://www.linkedin.com/in/syafirdaharwilaila/"
+            target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <span class="social-divider">/</span>
+          <a href="#contact" data-id="Hubungi Saya" data-en="Get in Touch">Hubungi Saya</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="photo-frame">
+          <img src="assets/profile.jpg"
+            alt="Foto profil Syafirda Harwi Laila"
+            class="profile-photo"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="photo-placeholder">
+            <span class="placeholder-icon">✳</span>
+            <strong data-id="Foto Profesional" data-en="Professional Photo">Foto Profesional</strong>
+            <span data-id="Letakkan foto kamu di folder assets"
+              data-en="Place your photo in the assets folder">
+              Letakkan foto kamu di folder assets
+            </span>
+          </div>
+          <div class="photo-caption">
+            <span class="caption-line"></span>
+            <span data-id="Berbasis di Indonesia" data-en="Based in Indonesia">Berbasis di Indonesia</span>
+          </div>
+        </div>
+
+        <div class="floating-card floating-top">
+          <span class="floating-icon">✦</span>
+          <div>
+            <strong>Statistics</strong>
+            <small data-id="Latar Belakang Akademik" data-en="Academic Background">Latar Belakang Akademik</small>
+          </div>
+        </div>
+
+        <div class="floating-card floating-bottom">
+          <span class="floating-icon chart-icon">↗</span>
+          <div>
+            <strong>Data &amp; Insights</strong>
+            <small data-id="Dari data menjadi informasi"
+              data-en="From data to insights">Dari data menjadi informasi</small>
+          </div>
+        </div>
+        <div class="decorative-circle"></div>
+      </div>
+    </section>
+
+  
+<!-- QUICK STATS -->
+<section class="stats-strip">
+  <div class="stats-inner">
+
+    <div class="stat-item">
+      <strong>2021–2025</strong>
+      <span data-id="Pendidikan Statistika"
+            data-en="Statistics Education">Pendidikan Statistika</span>
+    </div>
+
+    <div class="stat-item">
+      <strong>Excel · MySQL · PostgreSQL</strong>
+      <span data-id="Pengolahan Data"
+            data-en="Data Processing">Pengolahan Data</span>
+    </div>
+
+    <div class="stat-item">
+      <strong>RStudio · Python · Power BI</strong>
+      <span data-id="Analisis &amp; Visualisasi"
+            data-en="Analysis &amp; Visualization">Analisis &amp; Visualisasi</span>
+    </div>
+
+    <div class="stat-item">
+      <strong>QGIS · SPSS · Tableau</strong>
+      <span data-id="Analisis Statistik &amp; Spasial"
+            data-en="Statistical &amp; Spatial Analysis">Analisis Statistik &amp; Spasial</span>
+    </div>
+
+    <div class="stat-item">
+      <strong>Bizagi · Canva · Office</strong>
+      <span data-id="Proses Bisnis &amp; Produktivitas"
+            data-en="Business Process &amp; Productivity">Proses Bisnis &amp; Produktivitas</span>
+    </div>
+
+  </div>
+</section>
+
+    
+<!-- ABOUT -->
+<section class="section-wrap section" id="about">
+  <div class="section-heading">
+    <p class="eyebrow"
+       data-id="01 — TENTANG SAYA"
+       data-en="01 — ABOUT ME">
+      01 — TENTANG SAYA
+    </p>
+
+    <h2
+      data-id="Mengenal saya<br>lebih dekat."
+      data-en="A little more<br>about me.">
+      Mengenal saya<br>lebih dekat.
+    </h2>
+  </div>
+
+  <div class="about-grid">
+    <div class="about-main">
+      <p
+        class="lead"
+        data-id="Lulusan S1 Statistika Universitas Bengkulu dengan IPK 3,30 dan pengalaman dalam pengolahan, validasi, analisis, serta pengelolaan data melalui pengalaman di BPS Kota Bengkulu dan Arsip Nasional Republik Indonesia (ANRI)."
+        data-en="A Statistics graduate from the University of Bengkulu with a GPA of 3.30 and experience in data processing, validation, analysis, and management through internships at BPS Bengkulu City and the National Archives of the Republic of Indonesia (ANRI).">
+        Lulusan S1 Statistika Universitas Bengkulu dengan IPK 3,30 dan pengalaman dalam pengolahan, validasi, analisis, serta pengelolaan data melalui pengalaman di BPS Kota Bengkulu dan Arsip Nasional Republik Indonesia (ANRI).
+      </p>
+
+      <p
+        class="body-copy"
+        data-id="Memiliki keterampilan menggunakan Microsoft Excel, SQL, RStudio, Python, Power BI, Tableau, dan QGIS untuk mendukung analisis dan visualisasi data, pengembangan dashboard dan KPI, penyusunan laporan, serta pengolahan data spasial. Terbiasa menangani data dan metadata dengan mengutamakan ketelitian, konsistensi, dan akurasi. Memiliki minat untuk terus berkembang di bidang Data Analytics, Data Science, Data Engineering, dan Data Management."
+        data-en="Skilled in using Microsoft Excel, SQL, RStudio, Python, Power BI, Tableau, and QGIS to support data analysis and visualization, dashboard and KPI development, report preparation, and spatial data processing. Experienced in handling data and metadata with a focus on accuracy, consistency, and attention to detail. Interested in continuing to grow in Data Analytics, Data Science, Data Engineering, and Data Management.">
+        Memiliki keterampilan menggunakan Microsoft Excel, SQL, RStudio, Python, Power BI, Tableau, dan QGIS untuk mendukung analisis dan visualisasi data, pengembangan dashboard dan KPI, penyusunan laporan, serta pengolahan data spasial. Terbiasa menangani data dan metadata dengan mengutamakan ketelitian, konsistensi, dan akurasi. Memiliki minat untuk terus berkembang di bidang Data Analytics, Data Science, Data Engineering, dan Data Management.
+      </p>
+
+      <a class="text-link" href="#contact">
+        <span data-id="Mari terhubung" data-en="Let's connect">
+          Mari terhubung
+        </span>
+        ↗
+      </a>
+    </div>
+
+    <div class="about-details">
+      <div class="detail-card">
+        <span class="detail-number">01</span>
+        <div>
+          <h3
+            data-id="Analisis &amp; Visualisasi Data"
+            data-en="Data Analysis &amp; Visualization">
+            Analisis &amp; Visualisasi Data
+          </h3>
+          <p
+            data-id="Mengolah dan menganalisis data menggunakan metode statistik untuk menghasilkan insight, visualisasi, dan laporan."
+            data-en="Processing and analyzing data using statistical methods to generate insights, visualizations, and reports.">
+            Mengolah dan menganalisis data menggunakan metode statistik untuk menghasilkan insight, visualisasi, dan laporan.
+          </p>
+        </div>
+      </div>
+
+      <div class="detail-card">
+        <span class="detail-number">02</span>
+        <div>
+          <h3
+            data-id="Data Management &amp; Quality"
+            data-en="Data Management &amp; Quality">
+            Data Management &amp; Quality
+          </h3>
+          <p
+            data-id="Berfokus pada validasi, pembersihan, konsistensi data, pengelolaan metadata, dan dokumentasi."
+            data-en="Focused on data validation, cleaning, data consistency, metadata management, and documentation.">
+            Berfokus pada validasi, pembersihan, konsistensi data, pengelolaan metadata, dan dokumentasi.
+          </p>
+        </div>
+      </div>
+
+      <div class="detail-card">
+        <span class="detail-number">03</span>
+        <div>
+          <h3
+            data-id="Statistika &amp; Teknologi"
+            data-en="Statistics &amp; Technology">
+            Statistika &amp; Teknologi
+          </h3>
+          <p
+            data-id="Terus mengembangkan kemampuan dalam pemodelan statistik, pemrograman, dashboard, dan pengolahan data spasial."
+            data-en="Continuously developing skills in statistical modeling, programming, dashboards, and spatial data processing.">
+            Terus mengembangkan kemampuan dalam pemodelan statistik, pemrograman, dashboard, dan pengolahan data spasial.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    
+<!-- EXPERIENCE & EDUCATION -->
+<section class="section section-tinted" id="experience">
+  <div class="section-wrap">
+    <div class="section-heading">
+      <p class="eyebrow"
+         data-id="02 — PERJALANAN"
+         data-en="02 — MY JOURNEY">
+        02 — PERJALANAN
+      </p>
+
+      <h2
+        data-id="Pengalaman &amp;<br>pendidikan."
+        data-en="Experience &amp;<br>education.">
+        Pengalaman &amp;<br>pendidikan.
+      </h2>
+
+      <p class="section-intro"
+         data-id="Pengalaman dan pendidikan yang membentuk kemampuan saya dalam pengolahan data, analisis statistik, dan pengelolaan informasi."
+         data-en="Experiences and education that shaped my skills in data processing, statistical analysis, and information management.">
+        Pengalaman dan pendidikan yang membentuk kemampuan saya dalam pengolahan data, analisis statistik, dan pengelolaan informasi.
+      </p>
+    </div>
+
+    <div class="timeline">
+
+      <!-- ANRI -->
+      <article class="timeline-item">
+        <div class="timeline-date">MAGANG KEMNAKER</div>
+        <div class="timeline-marker"></div>
+
+        <div class="timeline-content">
+          <p class="timeline-type"
+             data-id="Pengalaman Profesional"
+             data-en="Professional Experience">
+            Pengalaman Profesional
+          </p>
+
+          <h3>Arsip Nasional Republik Indonesia (ANRI)</h3>
+
+          <p class="timeline-subtitle"
+             data-id="Pusat Data, Informasi, dan Jasa Teknis Kearsipan (Pusdatinjastek)"
+             data-en="Center for Archival Data, Information, and Technical Services">
+            Pusat Data, Informasi, dan Jasa Teknis Kearsipan (Pusdatinjastek)
+          </p>
+
+          <p
+            data-id="Terlibat dalam pengolahan, validasi, analisis, dan visualisasi data serta pengelolaan data dan metadata terkait kearsipan. Pengalaman ini mendukung pengembangan keterampilan dalam menjaga konsistensi data dan menyajikan informasi secara terstruktur."
+            data-en="Contributed to data processing, validation, analysis, and visualization, as well as the management of archival data and metadata. This experience supported the development of skills in maintaining data consistency and presenting structured information.">
+            Terlibat dalam pengolahan, validasi, analisis, dan visualisasi data serta pengelolaan data dan metadata terkait kearsipan. Pengalaman ini mendukung pengembangan keterampilan dalam menjaga konsistensi data dan menyajikan informasi secara terstruktur.
+          </p>
+
+          <div class="tag-list">
+            <span>Data Processing</span>
+            <span>Data Validation</span>
+            <span>Data Visualization</span>
+            <span>Metadata</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- BPS KOTA BENGKULU -->
+      <article class="timeline-item">
+        <div class="timeline-date">MAGANG MBKM</div>
+        <div class="timeline-marker"></div>
+
+        <div class="timeline-content">
+          <p class="timeline-type"
+             data-id="Pengalaman Profesional"
+             data-en="Professional Experience">
+            Pengalaman Magang
+          </p>
+
+          <h3>BPS Kota Bengkulu</h3>
+
+          <p class="timeline-subtitle"
+             data-id="Pengolahan Data Statistik"
+             data-en="Statistical Data Processing">
+            Pengolahan Data Statistik
+          </p>
+
+          <p
+            data-id="Mendukung pengolahan dan pemeriksaan data survei ketenagakerjaan (Sakernas) dan sosial ekonomi (Susenas). Kegiatan ini membantu menjaga kualitas, ketelitian, dan konsistensi data statistik."
+            data-en="Supported the processing and checking of labor force survey (Sakernas) and socioeconomic survey (Susenas) data. These activities helped maintain the quality, accuracy, and consistency of statistical data.">
+            Mendukung pengolahan dan pemeriksaan data survei ketenagakerjaan (Sakernas) dan sosial ekonomi (Susenas). Kegiatan ini membantu menjaga kualitas, ketelitian, dan konsistensi data statistik.
+          </p>
+
+          <div class="tag-list">
+            <span>Statistical Data</span>
+            <span>Data Quality</span>
+            <span>Data Validation</span>
+          </div>
+        </div>
+      </article>
+
+    
+<!-- EDUCATION -->
+<article class="timeline-item">
+  <div class="timeline-date">2021–2025</div>
+  <div class="timeline-marker"></div>
+
+  <div class="timeline-content">
+    <p class="timeline-type"
+       data-id="Pendidikan"
+       data-en="Education">
+      Pendidikan
+    </p>
+
+    <h3>Universitas Bengkulu</h3>
+
+    <p class="timeline-subtitle"
+       data-id="S1 Statistika · IPK 3,30/4,00"
+       data-en="Bachelor's Degree in Statistics · GPA 3.30/4.00">
+      S1 Statistika · IPK 3,30/4,00
+    </p>
+
+    <p
+      data-id="Mempelajari metode statistik, analisis data, pemodelan, dan interpretasi hasil untuk memahami pola data serta mendukung pengambilan keputusan berbasis data."
+      data-en="Studied statistical methods, data analysis, modeling, and interpretation to understand data patterns and support data-driven decision-making.">
+      Mempelajari metode statistik, analisis data, pemodelan, dan interpretasi hasil untuk memahami pola data serta mendukung pengambilan keputusan berbasis data.
+    </p>
+
+    <div class="tag-list">
+      <span>Statistics</span>
+      <span>Data Analysis</span>
+      <span>Statistical Modeling</span>
+    </div>
+
+    <!-- UNDERGRADUATE THESIS -->
+    <div class="thesis-info">
+      <p class="timeline-type"
+         data-id="Skripsi"
+         data-en="Undergraduate Thesis">
+        Skripsi
+      </p>
+
+      <h4
+        data-id="Penerapan Residual Bootstrap dan Principal Component Analysis (PCA) pada Model Spatial Autoregressive Moving Average (SARMA) untuk Pemodelan Kemiskinan di Wilayah Sumbagsel Tahun 2023"
+        data-en="Application of Residual Bootstrap and Principal Component Analysis (PCA) to the Spatial Autoregressive Moving Average (SARMA) Model for Poverty Modeling in the Sumbagsel Region in 2023">
+        Penerapan Residual Bootstrap dan Principal Component Analysis (PCA)
+        pada Model Spatial Autoregressive Moving Average (SARMA) untuk
+        Pemodelan Kemiskinan di Wilayah Sumbagsel Tahun 2023
+      </h4>
+
+      <p
+        data-id="Penelitian ini membahas pemodelan kemiskinan menggunakan metode statistik dan analisis data spasial, dengan evaluasi model berdasarkan Akaike Information Criterion (AIC)."
+        data-en="This research examines poverty modeling using statistical methods and spatial data analysis, with model evaluation based on the Akaike Information Criterion (AIC).">
+        Penelitian ini membahas pemodelan kemiskinan menggunakan metode statistik
+        dan analisis data spasial, dengan evaluasi model berdasarkan
+        Akaike Information Criterion (AIC).
+      </p>
+
+      <div class="tag-list">
+        <span>RStudio</span>
+        <span>PCA</span>
+        <span>SARMA</span>
+        <span>Residual Bootstrap</span>
+        <span>AIC</span>
+      </div>
+
+      <div class="thesis-actions">
+        <a
+          class="project-link"
+          href="assets/skripsi-sarma-sumbagsel.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-id="Baca Skripsi ↗"
+          data-en="Read Thesis ↗">
+          Baca Skripsi ↗
+        </a>
+
+        <a
+          class="project-link"
+          href="assets/skripsi-sarma-sumbagsel.pdf"
+          download="Skripsi_SARMA_Sumbagsel.pdf"
+          data-id="Unduh PDF ↓"
+          data-en="Download PDF ↓">
+          Unduh PDF ↓
+        </a>
+      </div>
+    </div>
+  </div>
+</article>
+</div>
+</div>
+</section>
+
+    <!-- PROJECTS -->
+    <section class="section section-wrap" id="projects">
+      <div class="section-heading project-heading">
+        <div>
+          <p class="eyebrow" data-id="03 — KARYA PILIHAN" 
+            data-en="03 — SELECTED WORK">03 — KARYA PILIHAN</p>
+          <h2 data-id="Proyek yang<br>bercerita lewat data." 
+            data-en="Projects that<br>tell a data story.">
+            Proyek yang bercerita lewat data.
+          </h2>
+        </div>
+        <p class="section-intro"
+          data-id="Kumpulan proyek analisis, pemodelan statistik, visualisasi, dan pengolahan data."
+          data-en="A collection of data analysis, statistical modeling, visualization, and data processing projects.">
+          Kumpulan proyek analisis, pemodelan statistik, visualisasi, dan pengolahan data.
+        </p>
+      </div>
+
+      <div class="project-grid">
+
+    <!-- PROJECT 01 -->
+    <article class="project-card">
+      <div class="project-art art-forecast">
+        <span class="project-index">PROJECT 01</span>
+        <div class="forecast-visual" aria-hidden="true">
+          <div class="chart-axis"></div>
+          <svg viewBox="0 0 340 150">
+            <path d="M12 125 L68 105 L122 112 L177 72 L232 84"
+              fill="none" stroke="#8CBBA8" stroke-width="3"/>
+            <path d="M232 84 L285 42 L328 20"
+              fill="none" stroke="#E4B86A" stroke-width="3"
+              stroke-dasharray="6 6"/>
+          </svg>
+          <span class="chart-label">2020 — 2026</span>
+        </div>
+      </div>
+      <div class="project-body">
+        <p class="project-category">R · FORECASTING</p>
+        <h3>SIDATA ANRI Forecasting</h3>
+        <p data-id="Analisis tren indikator SIDATA periode 2020–2024 dan prediksi 2025–2026 menggunakan regresi linear."
+           data-en="Analyzed SIDATA indicator trends from 2020–2024 and forecasted 2025–2026 values using linear regression.">
+          Analisis tren indikator SIDATA periode 2020–2024 dan prediksi 2025–2026 menggunakan regresi linear.
+        </p>
+        <div class="tag-list">
+          <span>R</span><span>jsonlite</span><span>dplyr</span><span>ggplot2</span>
+        </div>
+        <a class="project-link" href="#all-projects"
+           data-id="Lihat proyek lainnya ↓"
+           data-en="Explore more projects ↓">Lihat proyek lainnya ↓</a>
+      </div>
+    </article>
+
+    <!-- PROJECT 02 -->
+    <article class="project-card">
+      <div class="project-art art-excel">
+        <span class="project-index">PROJECT 02</span>
+        <div class="dashboard-visual" aria-hidden="true">
+          <div class="mini-kpi"><span></span><strong></strong><i></i></div>
+          <div class="mini-kpi"><span></span><strong></strong><i></i></div>
+          <div class="mini-bars">
+            <span style="height:42%"></span>
+            <span style="height:68%"></span>
+            <span style="height:52%"></span>
+            <span style="height:88%"></span>
+            <span style="height:62%"></span>
+            <span style="height:76%"></span>
+          </div>
+        </div>
+      </div>
+      <div class="project-body">
+        <p class="project-category">EXCEL · CUSTOMER ANALYSIS</p>
+        <h3>High Value Customer Analysis</h3>
+        <p data-id="Pengolahan data 10.000 pelanggan, perhitungan metrik, kategorisasi nilai pelanggan, dan analisis berdasarkan kota serta segmen."
+           data-en="Processed 10,000 customer records, calculated key metrics, categorized customer value, and analyzed results by city and segment.">
+          Pengolahan data 10.000 pelanggan, perhitungan metrik, kategorisasi nilai pelanggan, dan analisis berdasarkan kota serta segmen.
+        </p>
+        <div class="tag-list">
+          <span>Excel</span><span>PivotTable</span><span>Data Cleaning</span>
+        </div>
+        <a class="project-link" href="#all-projects"
+           data-id="Lihat proyek lainnya ↓"
+           data-en="Explore more projects ↓">Lihat proyek lainnya ↓</a>
+      </div>
+    </article>
+
+    <!-- PROJECT 03 -->
+    <article class="project-card">
+      <div class="project-art art-sql">
+        <span class="project-index">PROJECT 03</span>
+        <div class="code-visual" aria-hidden="true">
+          <div class="code-top">
+            <span></span><span></span><span></span><small>SQL QUERY</small>
+          </div>
+          <p><b>SELECT</b> store_name,</p>
+          <p class="code-indent">SUM(revenue)</p>
+          <p><b>FROM</b> sales_data</p>
+          <p><b>GROUP BY</b> store_name;</p>
+        </div>
+      </div>
+      <div class="project-body">
+        <p class="project-category">SQL · BUSINESS ANALYSIS</p>
+        <h3>SQL Sales Performance Analysis</h3>
+        <p data-id="Analisis performa penjualan menggunakan query SQL, eksplorasi data, agregasi, CTE, window function, dan dashboard Tableau."
+           data-en="Analyzed sales performance using SQL queries, data exploration, aggregation, CTEs, window functions, and Tableau dashboards.">
+          Analisis performa penjualan menggunakan query SQL, eksplorasi data, agregasi, CTE, window function, dan dashboard Tableau.
+        </p>
+        <div class="tag-list">
+          <span>MySQL</span><span>Tableau</span><span>SQL</span>
+        </div>
+        <a class="project-link"
+           href="https://bit.ly/SQLSalesPerformanceAnalysisMySkill"
+           target="_blank" rel="noopener noreferrer">
+          View project ↗
+        </a>
+      </div>
+    </article>
+
+    <!-- PROJECT 04 -->
+    <article class="project-card">
+      <div class="project-art art-dashboard">
+        <span class="project-index">PROJECT 04</span>
+        <div class="project-symbol" aria-hidden="true">▥</div>
+      </div>
+      <div class="project-body">
+        <p class="project-category">BUSINESS INTELLIGENCE</p>
+        <h3>Interactive Business Dashboards</h3>
+        <p data-id="Dua dashboard interaktif untuk menganalisis performa penjualan retail dan karakteristik pelanggan kartu kredit."
+           data-en="Built two interactive dashboards to analyze retail sales performance and credit card customer characteristics.">
+          Dua dashboard interaktif untuk menganalisis performa penjualan retail dan karakteristik pelanggan kartu kredit.
+        </p>
+        <div class="tag-list">
+          <span>Looker Studio</span><span>Google Sheets</span><span>KPI</span>
+        </div>
+        <a class="project-link"
+           href="https://bit.ly/InteractiveBusinessPerformanceDashboards"
+           target="_blank" rel="noopener noreferrer">
+          View project ↗
+        </a>
+      </div>
+    </article>
+
+    <!-- PROJECT 05 -->
+    <article class="project-card">
+      <div class="project-art art-python">
+        <span class="project-index">PROJECT 05</span>
+        <div class="project-symbol" aria-hidden="true">&lt;/&gt;</div>
+      </div>
+      <div class="project-body">
+        <p class="project-category">PYTHON · DATA ANALYSIS</p>
+        <h3>Data Analyst Engineering — UMS</h3>
+        <p data-id="Technical test yang mencakup pembersihan data admisi, aktivitas akademik, dan wisuda, analisis KPI, visualisasi, serta business insight."
+           data-en="A technical assessment covering admissions, academic activity, and graduation data cleaning, KPI analysis, visualization, and business insights.">
+          Technical test yang mencakup pembersihan data admisi, aktivitas akademik, dan wisuda, analisis KPI, visualisasi, serta business insight.
+        </p>
+        <div class="tag-list">
+          <span>Python</span><span>KPI Analysis</span><span>Visualization</span>
+        </div>
+        <a class="project-link"
+           href="https://bit.ly/TechnicalTestDataAnalystEngineeringUMS"
+           target="_blank" rel="noopener noreferrer">
+          View project ↗
+        </a>
+      </div>
+    </article>
+
+  </div>
+ 
+  
+<!-- ALL PROJECTS -->
+<div class="all-projects" id="all-projects">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow"
+         data-id="ARSIP KARYA"
+         data-en="PROJECT ARCHIVE">ARSIP KARYA</p>
+
+      <h3 data-id="Jelajahi proyek lainnya"
+          data-en="Explore more projects">Jelajahi proyek lainnya</h3>
+    </div>
+  </div>
+
+  <div class="project-list">
+
+    <article class="project-list-item">
+      <span class="project-list-number">07</span>
+      <div>
+        <h4 data-id="Analisis Saran dan Evaluasi Peserta Open Class CORPU"
+            data-en="Open Class CORPU Participant Feedback and Evaluation Analysis">
+          Analisis Saran dan Evaluasi Peserta Open Class CORPU
+        </h4>
+        <p>R · stringr · dplyr · ggplot2</p>
+      </div>
+      <span class="project-list-type">ANRI</span>
+    </article>
+
+    <article class="project-list-item">
+      <span class="project-list-number">08</span>
+      <div>
+        <h4 data-id="Analisis Inventaris Perangkat TIK ANRI 2024"
+            data-en="ANRI 2024 ICT Equipment Inventory Analysis">
+          Analisis Inventaris Perangkat TIK ANRI 2024
+        </h4>
+        <p>R · readxl · Data Cleaning</p>
+      </div>
+      <span class="project-list-type">ANRI</span>
+    </article>
+
+    <article class="project-list-item">
+      <span class="project-list-number">09</span>
+      <div>
+        <h4 data-id="Analisis Permintaan Layanan Helpdesk PDN"
+            data-en="PDN Helpdesk Service Request Analysis">
+          Analisis Permintaan Layanan Helpdesk PDN
+        </h4>
+        <p>R · Date Processing · Data Aggregation</p>
+      </div>
+      <span class="project-list-type">ANRI</span>
+    </article>
+
+    <article class="project-list-item">
+      <span class="project-list-number">10</span>
+      <div>
+        <h4 data-id="Perancangan Proses Bisnis dan Arsitektur Data SIDATA"
+            data-en="SIDATA Business Process and Data Architecture Design">
+          Perancangan Proses Bisnis dan Arsitektur Data SIDATA
+        </h4>
+        <p>Bizagi · RStudio · Excel</p>
+      </div>
+      <span class="project-list-type">ANRI</span>
+    </article>
+
+    <article class="project-list-item">
+      <span class="project-list-number">11</span>
+      <div>
+        <h4 data-id="Pemetaan Tematik Desa Gunung Besar dan Sebaran UMKM"
+            data-en="Thematic Mapping of Gunung Besar Village and MSME Distribution">
+          Pemetaan Tematik Desa Gunung Besar dan Sebaran UMKM
+        </h4>
+        <p>QGIS · Spatial Data</p>
+      </div>
+      <span class="project-list-type">MAPPING</span>
+    </article>
+
+    <article class="project-list-item">
+      <span class="project-list-number">12</span>
+      <div>
+        <h4 data-id="Pemetaan Banyaknya Peristiwa Pernikahan di Kabupaten Seluma"
+            data-en="Mapping Marriage Counts in Seluma Regency">
+          Pemetaan Banyaknya Peristiwa Pernikahan di Kabupaten Seluma
+        </h4>
+        <p>QGIS · Choropleth Map</p>
+      </div>
+      <span class="project-list-type">MAPPING</span>
+    </article>
+
+    <article class="project-list-item">
+      <span class="project-list-number">13</span>
+      <div>
+        <h4 data-id="Implementasi SQL untuk Analisis Performa Bisnis TechCorp"
+            data-en="SQL Implementation for TechCorp Business Performance Analysis">
+          Implementasi SQL untuk Analisis Performa Bisnis TechCorp
+        </h4>
+        <p>MySQL · JOIN · Aggregation</p>
+      </div>
+      <a href="https://bit.ly/ImplementasiSQLuntukAnalisisPerformaBisnisTechCorp"
+         target="_blank" rel="noopener noreferrer"
+         data-id="Lihat ↗"
+         data-en="View ↗">Lihat ↗</a>
+    </article>
+
+  </div>
+
+  
+    <p class="project-note"
+       data-id="Daftar ini merangkum proyek yang tercantum dalam portofolio. Dokumentasi tambahan akan ditautkan setelah file dan hasil proyek masing-masing disiapkan."
+       data-en="This list summarizes projects featured in the portfolio. Additional documentation will be linked once the corresponding project files and outputs are prepared.">
+      Daftar ini merangkum proyek yang tercantum dalam portofolio. Dokumentasi tambahan akan ditautkan setelah file dan hasil proyek masing-masing disiapkan.
+    </p>
+  </div>
+
+  <div class="portfolio-download">
+    <h3 data-id="Ingin melihat portofolio lengkap?"
+        data-en="Want to explore the full portfolio?">
+      Ingin melihat portofolio lengkap?
+    </h3>
+    <p data-id="Lihat dokumentasi pengalaman, proyek, dan karya lainnya dalam satu dokumen."
+       data-en="Explore my experience, projects, and other work in one document.">
+      Lihat dokumentasi pengalaman, proyek, dan karya lainnya dalam satu dokumen.
+    </p>
+    <a class="button button-primary"
+       href="assets/portfolio-lengkap.pdf" download>
+      <span data-id="Unduh Portofolio Lengkap" data-en="Download Full Portfolio">Unduh Portofolio Lengkap</span>
+      <span aria-hidden="true">↓</span>
+    </a>
+  </div>
+</section>
+
+   
+<!-- SKILLS -->
+<section class="section section-tinted" id="skills">
+  <div class="section-wrap">
+    <div class="section-heading">
+      <p class="eyebrow"
+         data-id="04 — KEMAMPUAN"
+         data-en="04 — CAPABILITIES">
+        04 — KEMAMPUAN
+      </p>
+
+      <h2
+        data-id="Tools untuk<br>mengolah informasi."
+        data-en="Tools to turn<br>data into insight.">
+        Tools untuk<br>mengolah informasi.
+      </h2>
+    </div>
+
+    <div class="skills-grid">
+
+      <!-- DATA PROCESSING & ENGINEERING -->
+      <article class="skill-card">
+        <div class="skill-icon">⌘</div>
+
+        <h3
+          data-id="Pengolahan &amp; Manajemen Data"
+          data-en="Data Processing &amp; Management">
+          Pengolahan &amp; Manajemen Data
+        </h3>
+
+        <p
+          data-id="Mengolah, membersihkan, memvalidasi, dan mengelola data serta metadata untuk menjaga kualitas dan konsistensi informasi."
+          data-en="Processing, cleaning, validating, and managing data and metadata to maintain information quality and consistency.">
+          Mengolah, membersihkan, memvalidasi, dan mengelola data serta metadata untuk menjaga kualitas dan konsistensi informasi.
+        </p>
+
+        <div class="tag-list">
+          <span>Data Cleaning</span>
+          <span>Data Validation</span>
+          <span>ETL</span>
+          <span>Data Processing</span>
+          <span>Data Management</span>
+          <span>Metadata Management</span>
+          <span>Data Entry</span>
+          <span>Data Tabulation</span>
+        </div>
+      </article>
+
+      <!-- ANALYTICS & VISUALIZATION -->
+      <article class="skill-card">
+        <div class="skill-icon">▥</div>
+
+        <h3
+          data-id="Analisis &amp; Visualisasi Data"
+          data-en="Data Analysis &amp; Visualization">
+          Analisis &amp; Visualisasi Data
+        </h3>
+
+        <p
+          data-id="Menganalisis pola data, mengeksplorasi temuan, dan menyajikan hasil melalui visualisasi, dashboard, KPI, serta laporan."
+          data-en="Analyzing data patterns, exploring findings, and presenting results through visualizations, dashboards, KPIs, and reports.">
+          Menganalisis pola data, mengeksplorasi temuan, dan menyajikan hasil melalui visualisasi, dashboard, KPI, serta laporan.
+        </p>
+
+        <div class="tag-list">
+          <span>Statistical Analysis</span>
+          <span>EDA</span>
+          <span>Data Visualization</span>
+          <span>Dashboard Development</span>
+          <span>KPI Development</span>
+          <span>Report Preparation</span>
+        </div>
+      </article>
+
+      <!-- SPATIAL & BUSINESS PROCESS -->
+      <article class="skill-card">
+        <div class="skill-icon">⌖</div>
+
+        <h3
+          data-id="Data Spasial &amp; Proses Bisnis"
+          data-en="Spatial Data &amp; Business Processes">
+          Data Spasial &amp; Proses Bisnis
+        </h3>
+
+        <p
+          data-id="Mendukung pengolahan data spasial, pemetaan tematik, dan pemetaan proses bisnis untuk menyajikan informasi secara terstruktur."
+          data-en="Supporting spatial data processing, thematic mapping, and business process mapping to present structured information.">
+          Mendukung pengolahan data spasial, pemetaan tematik, dan pemetaan proses bisnis untuk menyajikan informasi secara terstruktur.
+        </p>
+
+        <div class="tag-list">
+          <span>Spatial Data Processing</span>
+          <span>Thematic Mapping</span>
+          <span>Business Process Mapping</span>
+          <span>QGIS</span>
+          <span>Bizagi</span>
+        </div>
+      </article>
+
+      <!-- SOFTWARE & TOOLS -->
+      <article class="skill-card">
+        <div class="skill-icon">▤</div>
+
+        <h3
+          data-id="Software &amp; Tools"
+          data-en="Software &amp; Tools">
+          Software &amp; Tools
+        </h3>
+
+        <p
+          data-id="Menggunakan berbagai perangkat lunak untuk pengolahan data, pemrograman, analisis statistik, visualisasi, dan penyusunan dokumen."
+          data-en="Using various software tools for data processing, programming, statistical analysis, visualization, and document preparation.">
+          Menggunakan berbagai perangkat lunak untuk pengolahan data, pemrograman, analisis statistik, visualisasi, dan penyusunan dokumen.
+        </p>
+
+        <div class="tag-list">
+          <span>Microsoft Excel</span>
+          <span>SQL (MySQL, PostgreSQL)</span>
+          <span>RStudio</span>
+          <span>Python</span>
+          <span>Microsoft Power BI</span>
+          <span>Tableau</span>
+          <span>Google Looker Studio</span>
+          <span>IBM SPSS Statistics</span>
+          <span>Minitab</span>
+          <span>MATLAB</span>
+          <span>Canva</span>
+          <span>Microsoft Word</span>
+          <span>Microsoft PowerPoint</span>
+        </div>
+      </article>
+
+    </div>
+
+    <p class="project-note"
+       data-id="Keterampilan dan perangkat lunak yang tercantum disesuaikan dengan daftar kemampuan dalam CV."
+       data-en="The skills and software listed here follow the capabilities included in my CV.">
+      Keterampilan dan perangkat lunak yang tercantum disesuaikan dengan daftar kemampuan dalam CV.
+    </p>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS & TRAINING -->
+<section class="section-wrap section" id="certifications">
+  <div class="section-heading">
+    <p class="eyebrow"
+       data-id="05 — PELATIHAN & SERTIFIKASI"
+       data-en="05 — TRAINING & CERTIFICATIONS">
+      05 — PELATIHAN & SERTIFIKASI
+    </p>
+
+    <h2
+      data-id="Belajar, berkembang,<br>dan terus bertumbuh."
+      data-en="Learning, growing,<br>and moving forward.">
+      Belajar, berkembang,<br>dan terus bertumbuh.
+    </h2>
+
+    <p class="section-intro"
+       data-id="Pelatihan dan sertifikasi yang mendukung pengembangan kemampuan teknis, analisis data, dan profesional."
+       data-en="Training and certifications supporting the development of my technical, data analysis, and professional skills.">
+      Pelatihan dan sertifikasi yang mendukung pengembangan kemampuan teknis, analisis data, dan profesional.
+    </p>
+  </div>
+
+  <div class="skills-grid">
+
+    <!-- 2026 -->
+    <article class="skill-card">
+      <div class="skill-icon">01</div>
+      <p class="timeline-type">2026 · MySkill</p>
+      <h3>SQL for Data Analysis</h3>
+      <p
+        data-id="Certificate of Skill Specialization — MySkill Learning Path: Data Science &amp; Data Analysis."
+        data-en="Certificate of Skill Specialization — MySkill Learning Path: Data Science &amp; Data Analysis.">
+        Certificate of Skill Specialization — MySkill Learning Path: Data Science &amp; Data Analysis.
+      </p>
+      <div class="tag-list">
+        <span>SQL</span>
+        <span>Data Analysis</span>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-icon">02</div>
+      <p class="timeline-type">2026 · MySkill</p>
+      <h3>Python for Data Analysis</h3>
+      <p
+        data-id="Pelatihan Python untuk mendukung pengolahan dan analisis data."
+        data-en="Training in Python for data processing and analysis.">
+        Pelatihan Python untuk mendukung pengolahan dan analisis data.
+      </p>
+      <div class="tag-list">
+        <span>Python</span>
+        <span>Data Analysis</span>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-icon">03</div>
+      <p class="timeline-type">2026 · MySkill</p>
+      <h3>Microsoft Power BI</h3>
+      <p
+        data-id="Pelatihan penggunaan Power BI dalam visualisasi data dan pengembangan dashboard."
+        data-en="Training in Power BI for data visualization and dashboard development.">
+        Pelatihan penggunaan Power BI dalam visualisasi data dan pengembangan dashboard.
+      </p>
+      <div class="tag-list">
+        <span>Power BI</span>
+        <span>Dashboard</span>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-icon">04</div>
+      <p class="timeline-type">2026 · MySkill</p>
+      <h3>Google Looker Studio</h3>
+      <p
+        data-id="Pelatihan penggunaan Looker Studio untuk penyajian dan visualisasi informasi."
+        data-en="Training in Looker Studio for information presentation and visualization.">
+        Pelatihan penggunaan Looker Studio untuk penyajian dan visualisasi informasi.
+      </p>
+      <div class="tag-list">
+        <span>Looker Studio</span>
+        <span>Visualization</span>
+      </div>
+    </article>
+
+    <!-- OTHER TRAINING -->
+    <article class="skill-card">
+      <div class="skill-icon">05</div>
+      <p class="timeline-type">2026 · Dsarea</p>
+      <h3>Microsoft Office untuk Pekerja</h3>
+      <p
+        data-id="Microsoft Office untuk Pekerja — Grade A."
+        data-en="Microsoft Office for Workers — Grade A.">
+        Microsoft Office untuk Pekerja — Grade A.
+      </p>
+      <div class="tag-list">
+        <span>Microsoft Office</span>
+        <span>Grade A</span>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-icon">06</div>
+      <p class="timeline-type">2025 · RevoU</p>
+      <h3>Digital Marketing (DAMC) Data Analysis</h3>
+      <p
+        data-id="Certified Online Course — RevoU / PT Revolusi Cita Edukasi."
+        data-en="Certified Online Course — RevoU / PT Revolusi Cita Edukasi.">
+        Certified Online Course — RevoU / PT Revolusi Cita Edukasi.
+      </p>
+      <div class="tag-list">
+        <span>Data Analysis</span>
+        <span>RevoU</span>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-icon">07</div>
+      <p class="timeline-type">2022 · SWAN Statistics Consultant</p>
+      <h3>Machine Learning</h3>
+      <p
+        data-id="Pelatihan Machine Learning — SWAN Statistics Consultant / PT Angsa Statistika Indonesia."
+        data-en="Machine Learning Training — SWAN Statistics Consultant / PT Angsa Statistika Indonesia.">
+        Pelatihan Machine Learning — SWAN Statistics Consultant / PT Angsa Statistika Indonesia.
+      </p>
+      <div class="tag-list">
+        <span>Machine Learning</span>
+        <span>Statistics</span>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section section-wrap contact-section" id="contact">
+  <div class="contact-panel">
+    <div class="contact-decoration">S.</div>
+
+    <p class="eyebrow"
+       data-id="06 — MARI TERHUBUNG"
+       data-en="06 — LET'S CONNECT">
+      06 — MARI TERHUBUNG
+    </p>
+
+    <h2
+      data-id="Punya peluang<br>atau proyek menarik?"
+      data-en="Have an opportunity<br>or an interesting project?">
+      Punya peluang<br>atau proyek menarik?
+    </h2>
+
+    <p
+      data-id="Saya terbuka untuk peluang kerja dan kolaborasi yang relevan dengan data, analisis, dan pengelolaan informasi."
+      data-en="I am open to job opportunities and collaborations related to data, analytics, and information management.">
+      Saya terbuka untuk peluang kerja dan kolaborasi yang relevan dengan data, analisis, dan pengelolaan informasi.
+    </p>
+
+    <div class="contact-actions">
+      <a class="button button-light"
+         href="mailto:syafirdaharwilaila1410@gmail.com">
+        <span data-id="Kirim Email" data-en="Send an Email">Kirim Email</span> ↗
+      </a>
+
+      <a class="button button-contact-outline"
+         href="https://www.linkedin.com/in/syafirdaharwilaila/"
+         target="_blank"
+         rel="noopener noreferrer">
+        LinkedIn ↗
+      </a>
+
+      <!-- Ganti NOMOR_KAMU dengan nomor WhatsApp kamu -->
+      <a class="button button-contact-outline"
+         href="https://wa.me/6285357089588"
+         target="_blank"
+         rel="noopener noreferrer">
+        WhatsApp ↗
+      </a>
+
+      <!-- Ganti USERNAME_INSTAGRAM dengan username Instagram kamu -->
+      <a class="button button-contact-outline"
+         href="https://www.instagram.com/syfirdaharwi/"
+         target="_blank"
+         rel="noopener noreferrer">
+        Instagram ↗
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
+
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="#home">
+      <span class="brand-mark">S.</span>
+      <span>syafirda Harwi Laila<span class="brand-dot">.</span></span>
+    </a>
+    <p>© <span id="currentYear"></span> Syafirda Harwi Laila.
+      <span data-id="Dibuat dengan tujuan dan ketelitian."
+        data-en="Built with purpose and attention to detail.">Dibuat dengan tujuan dan ketelitian.</span>
+    </p>
+    <a class="back-to-top" href="#home" aria-label="Back to top">↑</a>
+  </footer>
+</body>
+</html>
